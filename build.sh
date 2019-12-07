@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cp -R eplays/distributions/eplays LibreELEC.tv/distributions
-cp -R eplays/packages/eplays LibreELEC.tv/packages
-cp -R eplays/projects/RPi2 LibreELEC.tv/projects
+rm -rf LibreELEC.tv/distributions/eplays && cp -R eplays/distributions/eplays LibreELEC.tv/distributions
+rm -rf LibreELEC.tv/packages/eplays && cp -R eplays/packages/eplays LibreELEC.tv/packages
+rm -rf LibreELEC.tv/projects/RPi2 && cp -R eplays/projects/RPi2 LibreELEC.tv/projects
 
 cd LibreELEC.tv
 
