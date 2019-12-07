@@ -160,7 +160,7 @@
     if [ "$BOARD" = "RPi4" ]; then
       ADDITIONAL_DRIVERS="rpi-cirrus-config bcm2835-driver"
     else
-      ADDITIONAL_DRIVERS="$ADDITIONAL_DRIVERS gamecon_gpio_rpi rpi-cirrus-config game-hat bcm2835-driver"
+      ADDITIONAL_DRIVERS="$ADDITIONAL_DRIVERS rpi-cirrus-config bcm2835-driver"
     fi
 
   # override some playlist core assignation

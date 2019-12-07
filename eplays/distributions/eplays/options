@@ -39,7 +39,7 @@
   SKIN_DEFAULT="Confluence"
 
 # install extra subtitle Fonts for KODI (yes / no)
-  KODI_EXTRA_FONTS="yes"
+  KODI_EXTRA_FONTS="no"
 
 # build and install 'RSXS' Screensaver (yes / no)
   KODI_SCR_RSXS="yes"
@@ -95,16 +95,16 @@
   BLUETOOTH_SUPPORT="yes"
 
 # build and install with KODI webfrontend (yes / no)
-  KODI_WEBSERVER_SUPPORT="yes"
+  KODI_WEBSERVER_SUPPORT="no"
 
 # build and install Avahi (Zeroconf) daemon (yes / no)
-  AVAHI_DAEMON="yes"
+  AVAHI_DAEMON="no"
 
 # build with UPnP support (yes / no)
-  KODI_UPNP_SUPPORT="yes"
+  KODI_UPNP_SUPPORT="no"
 
 # build with MySQL support (yes / no)
-  KODI_MYSQL_SUPPORT="yes"
+  KODI_MYSQL_SUPPORT="no"
 
 # build xbmc with sshlib support (yes / no)
   KODI_SSHLIB_SUPPORT="yes"
@@ -130,25 +130,25 @@
   KODI_AFP_SUPPORT="no"
 
 # build with Samba Client support (mounting SAMBA shares with KODI) (yes / no)
-  KODI_SAMBA_SUPPORT="yes"
+  KODI_SAMBA_SUPPORT="no"
 
 # build with NFS support (mounting nfs shares via the OS) (yes / no)
-  NFS_SUPPORT="yes"
+  NFS_SUPPORT="no"
 
 # build with Samba Client support (mounting samba shares via the OS) (yes / no)
-  SAMBA_SUPPORT="yes"
+  SAMBA_SUPPORT="no"
 
 # build and install Samba Server (yes / no)
-  SAMBA_SERVER="yes"
+  SAMBA_SERVER="no"
 
 # build and install SFTP Server (yes / no)
-  SFTP_SERVER="yes"
+  SFTP_SERVER="no"
 
 # build and install PPP support (yes / no)
   PPTP_SUPPORT="yes"
 
 # build and install OpenVPN support (yes / no)
-  OPENVPN_SUPPORT="yes"
+  OPENVPN_SUPPORT="no"
 
 # build and install diskmounter support (udevil)
 # this service provide auto mounting support for external drives in the
@@ -191,7 +191,7 @@
   JOYSTICK_SUPPORT="yes"
 
 # build and install CEC adapter support (yes / no)
-  CEC_SUPPORT="yes"
+  CEC_SUPPORT="no"
 
 # build and install iSCSI support - iscsistart (yes / no)
   ISCSI_SUPPORT="yes"
