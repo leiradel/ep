@@ -1,0 +1,3 @@
+[submodule "LibreELEC.tv"]
+	path = LibreELEC.tv
+	url = https://github.com/LibreELEC/LibreELEC.tv.git
