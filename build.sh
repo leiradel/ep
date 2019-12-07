@@ -9,6 +9,8 @@ cd LibreELEC.tv
 rm -rf target/
 
 export IGNORE_VERSION=1
+export DISTRO=eplays
+export THREADCOUNT=8
 
 >&2 echo "RPi2.arm + noobs"
 PROJECT=RPi2 ARCH=arm make noobs
